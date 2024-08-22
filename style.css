@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500&display=swap');/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Figtree", sans-serif;
+  line-height: 1.6;
+  width:100%;
+  height:100%;
+  color: #333;
+  background: var(--color-yellow, #F4D04E);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+display: flex;
+width: 24rem;
+padding: var(--spacing-200, 1.5rem);
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: var(--spacing-200, 1.5rem);
+flex-shrink: 0;
+border-radius: 1.25rem;
+border: 1px solid var(--color-gray-950, #111);
+background: var(--color-white, #FFF);
+box-shadow: 8px 8px 0px 0px #000;
+
+}
+
+
+.content-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-150, 0.75rem);
+    align-self: stretch;
+}
+
+.category-card{
+    display: flex;
+    padding: var(--spacing-50, 0.25rem) var(--spacing-150, 0.75rem);
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-100, 0.5rem);
+    border-radius: var(--spacing-50, 0.25rem);
+    background: var(--color-yellow, #F4D04E);
+}
+
+.learning-card{
+    color: var(--color-gray-950, #111);
+
+/* text-preset-3-bold */
+font-family: Figtree;
+font-size: var(--font-size-text-preset-3, 0.875rem);
+font-style: normal;
+font-weight: 800;
+line-height: 150%; /* 1.3125rem */
+}
+.publishdate-card{
+    color: var(--color-gray-950, #111);
+
+/* text-preset-3 */
+font-family: Figtree;
+font-size: var(--font-size-text-preset-3, 0.875rem);
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 1.3125rem */
+}
+
+.title-card{
+    align-self: stretch;
+    color: var(--color-gray-950, #111);
+
+/* text-preset-1 */
+font-family: Figtree;
+font-size: var(--spacing-200, 1.5rem);
+font-style: normal;
+font-weight: 800;
+line-height: 150%; /* 2.25rem */
+}
+
+.description-card{
+    align-self: stretch;
+    color: var(--color-gray-500, #6B6B6B);
+
+/* text-preset-2 */
+font-family: Figtree;
+font-size: var(--font-size-text-preset-2, 1rem);
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 1.5rem */
+}
+
+.author-card{
+    display: flex;
+align-items: center;
+gap: var(--spacing-150, 0.75rem);
+}
+.authorname-card{
+    color: var(--color-gray-950, #111);
+
+/* text-preset-3-bold */
+font-family: Figtree;
+font-size: var(--font-size-text-preset-3, 0.875rem);
+font-style: normal;
+font-weight: 800;
+line-height: 150%; /* 1.3125rem */
+}
+
+
+
+@media (max-width: 390px) {
+    .card {
+      width: 18rem; /* Adjusted width for smaller screens */
+      padding: var(--spacing-100, 1rem);
+      box-shadow: 6px 6px 0px 0px #000;
+    }
+  
+    .title-card {
+      font-size: 1.25rem; /* Adjust title size */
+      line-height: 1.75rem;
+    }
+  
+    .description-card {
+      font-size: 0.875rem; /* Adjust description size */
+      line-height: 1.25rem;
+    }
+  
+    .author-card {
+      gap: var(--spacing-100, 0.5rem);
+    }
+  
+    .authorname-card, .publishdate-card, .learning-card {
+      font-size: 0.75rem; /* Adjust text size */
+      line-height: 1.125rem;
+    }
+    .card img{
+        width: 100%;
+    }
+  }
+  
