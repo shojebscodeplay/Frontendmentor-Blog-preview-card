@@ -1,6 +1,8 @@
 # Blog Preview Card
 
 Welcome to the Blog Preview Card project! This repository contains a simple and responsive blog preview card designed using HTML and CSS. It showcases an article with an image, category, publication date, title, description, and author information.
+![Screenshot (518)](https://github.com/user-attachments/assets/a562da32-6876-4723-bbca-507a42909c71)
+
 
 ## Project Overview
 
@@ -12,9 +14,7 @@ The Blog Preview Card is a clean and modern component that displays a summary of
 - **Custom Font**: Utilizes the Figtree font for a modern look.
 - **Flexbox Layout**: Ensures proper alignment and spacing of elements.
 
-## Screenshots
 
-![Blog Preview Card](./assets/images/illustration-article.svg)
 
 ## Project Structure
 
